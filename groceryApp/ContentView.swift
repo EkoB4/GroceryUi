@@ -25,27 +25,30 @@ struct ContentView: View {
                     .background(Color.green)
                     .cornerRadius(15)
                     .position(x: 60, y: 180)
+                    }
+                ScrollView{
+                HStack{
+                    Button(action: {print("test")}) {
+                        Text("add to card")
+                            .bold()
+                            .foregroundColor(.white)
+                            .frame(width: 170, height:80)
+                            .background(Color.green)
+                            .cornerRadius(9)
+                            .font(.title)
+                            .position(x: 110, y: 359.0)
+                    }
+                Image("appleIcon")
+                    .resizable()
+                    //.aspectRatio(contentMode: .fit )
+                    .scaledToFill()
+                    .frame(width: 180, height: 180)
+                    .clipped()
+                    .cornerRadius(40)
+                    .position(x: -100, y: 300)
+                    
+                   }
                 }
-                ScrollView(.horizontal){
-                    Spacer(minLength: 50)
-                RoundedRectangle(cornerRadius: 25.0)
-                .frame(width: 180, height: 280, alignment: .center)
-                .position(x: 100, y: 300)
-                    .foregroundColor(.white)
-                    
-                    
-                   
-                RoundedRectangle(cornerRadius: 25.0)
-                .frame(width: 180, height: 280, alignment: .center)
-                .position(x: 300, y: 15)
-                    .foregroundColor(.white)
-                    
-                RoundedRectangle(cornerRadius: 25.0)
-                .frame(width: 180, height: 280, alignment: .center)
-                .position(x: 500, y: -270)
-                    .foregroundColor(.white)
-                }
-                
             }
         }.background(Color.green.opacity(0.1)).ignoresSafeArea()
     }
