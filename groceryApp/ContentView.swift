@@ -6,7 +6,6 @@
 //
 
 import SwiftUI
-
 struct ContentView: View {
     var body: some View {
         VStack{
@@ -28,25 +27,10 @@ struct ContentView: View {
                     }
                 ScrollView{
                 HStack{
-                    Button(action: {print("test")}) {
-                        Text("add to card")
-                            .bold()
-                            .foregroundColor(.white)
-                            .frame(width: 170, height:80)
-                            .background(Color.green)
-                            .cornerRadius(9)
-                            .font(.title)
-                            .position(x: 110, y: 359.0)
-                    }
-                Image("appleIcon")
-                    .resizable()
-                    //.aspectRatio(contentMode: .fit )
-                    .scaledToFill()
-                    .frame(width: 180, height: 180)
-                    .clipped()
-                    .cornerRadius(40)
-                    .position(x: -100, y: 300)
-                    
+                images()
+                    .position(x: 100, y: 300)
+                buttonUI()
+                    .position(x: -110, y: 350)
                    }
                 }
             }
