@@ -25,13 +25,17 @@ struct ContentView: View {
                     .cornerRadius(15)
                     .position(x: 60, y: 180)
                     }
-                ScrollView{
+                ScrollView(.horizontal){
                 HStack{
                 images()
-                    .position(x: 100, y: 300)
+                    .position(x: 260, y: 360)
                 buttonUI()
-                    .position(x: -110, y: 350)
+                    .position(x: -310, y: 235)
                    }
+                //image2()
+                  //  .position(x: 270, y: -60)
+               // buttonUI()
+                   // .position(x: 300, y: -210)
                 }
             }
         }.background(Color.green.opacity(0.1)).ignoresSafeArea()

@@ -14,7 +14,7 @@
 		3540677626C0040300EC9121 /* groceryAppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3540677526C0040300EC9121 /* groceryAppTests.swift */; };
 		3540678126C0040300EC9121 /* groceryAppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3540678026C0040300EC9121 /* groceryAppUITests.swift */; };
 		355CBB5126C1F45F003165C3 /* buttonUI.swift in Sources */ = {isa = PBXBuildFile; fileRef = 355CBB5026C1F45F003165C3 /* buttonUI.swift */; };
-		355CBB5726C208D8003165C3 /* images.swift in Sources */ = {isa = PBXBuildFile; fileRef = 355CBB5626C208D8003165C3 /* images.swift */; };
+		35DC173326C2A0B600A98BC6 /* images.swift in Sources */ = {isa = PBXBuildFile; fileRef = 35DC173226C2A0B600A98BC6 /* images.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -48,7 +48,7 @@
 		3540678026C0040300EC9121 /* groceryAppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = groceryAppUITests.swift; sourceTree = "<group>"; };
 		3540678226C0040300EC9121 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		355CBB5026C1F45F003165C3 /* buttonUI.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = buttonUI.swift; sourceTree = "<group>"; };
-		355CBB5626C208D8003165C3 /* images.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = images.swift; path = ../images.swift; sourceTree = "<group>"; };
+		35DC173226C2A0B600A98BC6 /* images.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = images.swift; path = ../groceryApp/images.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -147,7 +147,7 @@
 		355CBB5526C20897003165C3 /* Images */ = {
 			isa = PBXGroup;
 			children = (
-				355CBB5626C208D8003165C3 /* images.swift */,
+				35DC173226C2A0B600A98BC6 /* images.swift */,
 			);
 			path = Images;
 			sourceTree = "<group>";
@@ -282,7 +282,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				355CBB5126C1F45F003165C3 /* buttonUI.swift in Sources */,
-				355CBB5726C208D8003165C3 /* images.swift in Sources */,
+				35DC173326C2A0B600A98BC6 /* images.swift in Sources */,
 				3540676626C0040200EC9121 /* ContentView.swift in Sources */,
 				3540676426C0040200EC9121 /* groceryAppApp.swift in Sources */,
 			);

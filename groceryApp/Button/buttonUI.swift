@@ -10,14 +10,14 @@ import SwiftUI
 struct buttonUI: View {
     var body: some View {
         HStack{
-            Button(action: {print("tapped")}, label: {
-                Text("Add To Cart")
+            Button(action: {print("item added!")}, label: {
+                Text("Add")
                     .bold()
-                    .frame(width: 180, height: 50)
+                    .frame(width: 55, height: 40)
                     .background(Color.green)
-                    .cornerRadius(20)
+                    .cornerRadius(10)
                     .foregroundColor(.white)
-                    .font(.title)
+                //.font(.title)
             })
             }
         }
