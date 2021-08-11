@@ -14,8 +14,7 @@ struct ContentView: View {
                     .font(.title)
                     .bold()
                     .frame(width: 200, height: 259, alignment: .center)
-                Button(action: {print("tapped")}) {
-                    Image(systemName: "")
+                Button(action : {print("tapped")}) {
                  Text("All")
                     .bold()
                     .padding()
@@ -28,15 +27,19 @@ struct ContentView: View {
                 ScrollView(.horizontal){
                 HStack{
                 images()
-                    .position(x: 260, y: 360)
+                    .frame(width: square.size.width*0.5, height: square.size.height*0.23)
+                    .position(x: 110, y: 320)
                 buttonUI()
-                    .position(x: -310, y: 235)
-                   }
-                //image2()
-                  //  .position(x: 270, y: -60)
-               // buttonUI()
-                   // .position(x: 300, y: -210)
+                    .frame(width: square.size.width*0.4, height: square.size.height*22)
+                    .position(x: -9, y: 255)
                 }
+                    image2().frame(width: square.size.width*0.5, height: square.size.height*0.23)
+                        .position(x: 320, y: 32)
+                buttonUI()
+                    .frame(width: square.size.width*0.4, height: square.size.height*22)
+                    .position(x: 385, y: -295)
+                }
+                
             }
         }.background(Color.green.opacity(0.1)).ignoresSafeArea()
     }

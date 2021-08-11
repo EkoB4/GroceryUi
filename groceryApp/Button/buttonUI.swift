@@ -13,8 +13,7 @@ struct buttonUI: View {
             Button(action: {print("item added!")}, label: {
                 Text("Add")
                     .bold()
-                    .frame(width: 55, height: 40)
-                    .background(Color.green)
+                    .frame( maxWidth: 45, maxHeight: 35, alignment: .center)              .background(Color.green)
                     .cornerRadius(10)
                     .foregroundColor(.white)
                 //.font(.title)
