@@ -13,6 +13,7 @@
 		3540676B26C0040300EC9121 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3540676A26C0040300EC9121 /* Preview Assets.xcassets */; };
 		3540677626C0040300EC9121 /* groceryAppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3540677526C0040300EC9121 /* groceryAppTests.swift */; };
 		3540678126C0040300EC9121 /* groceryAppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3540678026C0040300EC9121 /* groceryAppUITests.swift */; };
+		3547CC7026C57E810034B2AF /* popularUI.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3547CC6F26C57E810034B2AF /* popularUI.swift */; };
 		355CBB5126C1F45F003165C3 /* buttonUI.swift in Sources */ = {isa = PBXBuildFile; fileRef = 355CBB5026C1F45F003165C3 /* buttonUI.swift */; };
 		35DC173326C2A0B600A98BC6 /* images.swift in Sources */ = {isa = PBXBuildFile; fileRef = 35DC173226C2A0B600A98BC6 /* images.swift */; };
 /* End PBXBuildFile section */
@@ -47,6 +48,7 @@
 		3540677C26C0040300EC9121 /* groceryAppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = groceryAppUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		3540678026C0040300EC9121 /* groceryAppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = groceryAppUITests.swift; sourceTree = "<group>"; };
 		3540678226C0040300EC9121 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3547CC6F26C57E810034B2AF /* popularUI.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = popularUI.swift; sourceTree = "<group>"; };
 		355CBB5026C1F45F003165C3 /* buttonUI.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = buttonUI.swift; sourceTree = "<group>"; };
 		35DC173226C2A0B600A98BC6 /* images.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = images.swift; path = ../groceryApp/images.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -79,6 +81,7 @@
 		3540675726C0040200EC9121 = {
 			isa = PBXGroup;
 			children = (
+				3547CC6F26C57E810034B2AF /* popularUI.swift */,
 				355CBB5526C20897003165C3 /* Images */,
 				3540676226C0040200EC9121 /* groceryApp */,
 				3540677426C0040300EC9121 /* groceryAppTests */,
@@ -283,6 +286,7 @@
 			files = (
 				355CBB5126C1F45F003165C3 /* buttonUI.swift in Sources */,
 				35DC173326C2A0B600A98BC6 /* images.swift in Sources */,
+				3547CC7026C57E810034B2AF /* popularUI.swift in Sources */,
 				3540676626C0040200EC9121 /* ContentView.swift in Sources */,
 				3540676426C0040200EC9121 /* groceryAppApp.swift in Sources */,
 			);

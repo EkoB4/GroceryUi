@@ -7,7 +7,7 @@
 
 import Foundation
 import SwiftUI
-struct images: View {
+struct peachImage: View {
     var body: some View {
         HStack{
             Image("peachIcon")
@@ -19,14 +19,7 @@ struct images: View {
         }
     }
 }
-
-struct images_Previews: PreviewProvider {
-    static var previews: some View {
-        images().previewLayout(.sizeThatFits)
-    }
-}
-
-struct image2 : View {
+struct appleImage : View {
     var body: some View{
         HStack{
             Image("appleIcon")
@@ -39,9 +32,26 @@ struct image2 : View {
         }
     }
 }
-
-struct image2_preview : PreviewProvider {
-    static var previews: some View{
-        image2()//.previewLayout(.sizeThatFits)
+struct pepperImage : View {
+    var body: some View {
+        HStack{
+            Image("pepperImage")
+                .resizable()
+                .scaledToFill()
+                .cornerRadius(13)
+                .clipped()
+        }
     }
 }
+struct tomatoImage : View {
+    var body: some View {
+        HStack{
+            Image("tomatoIcon")
+                .resizable()
+                .scaledToFill()
+                .cornerRadius(11)
+                .clipped()
+        }
+    }
+}
+
